@@ -1,0 +1,14 @@
+
+
+<view class="remind">
+    <text>提醒功能</text>
+    <switch checked/>
+</view>
+<view class="remind">
+  <picker mode="time" value="{{time}}" start="00:00" end="23:00" bindchange="bindTimeChange">
+    <view class="picker">
+     <text>时间设定</text>
+      <view>{{time}}</view>
+    </view>
+  </picker>
+</view>
