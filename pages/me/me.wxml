@@ -4,7 +4,7 @@
          <view class="me1_right">
             <view class="me_name">{{userInfo.nickName}}</view>
             <view class="perfec">
-            <text>完善资料</text>        
+            <view>完善资料</view>        
             <image class="edit" src="../images/info_icon_por.png"></image>
             </view>
          </view>
@@ -25,16 +25,16 @@
         <image class="listimg2" src="../images/back.png"></image>
     </view>
 </navigator>
-<navigator url="/pages/me/remind/remind" open-type="navigate" class="me_lists">
+<navigator url="/pages/me/subscribe/subscribe" open-type="navigate" class="me_lists">
     <view class="me_list">
-        <image class="listimg1" src="../images/listimg3.png"></image>
-        <view class="listtext">心情记录提醒设置</view>
+        <image class="listimg1 list3icon" src="../images/listimg3.png"></image>
+        <view class="listtext">精选订阅</view>
         <image class="listimg2" src="../images/back.png"></image>
     </view>
 </navigator>
 <navigator url="/pages/me/privacy/privacy" open-type="navigate" class="me_lists">
     <view class="me_list">
-        <image class="listimg1" src="../images/listimg4.png"></image>
+        <image class="listimg1 list4icon" src="../images/listimg4.png"></image>
         <view class="listtext">隐私设置</view>
         <image class="listimg2" src="../images/back.png"></image>
     </view>
@@ -42,7 +42,7 @@
 
 <navigator url="/pages/me/proposal/proposal" open-type="navigate" class="me_lists">
     <view class="me_list">
-        <image class="listimg1" src="../images/listimg6.png"></image>
+        <image class="listimg1 list5icon" src="../images/listimg6.png"></image>
         <view class="listtext">意见反馈</view>
         <image class="listimg2" src="../images/back.png"></image>
     </view>
@@ -50,8 +50,8 @@
 
 <navigator url="/pages/me/problem/problem" open-type="navigate" class="me_lists">
     <view class="me_list">
-        <image class="listimg1" src="../images/aboutMe.png"></image>
-        <view class="listtext">个人中心</view>
+        <image class="listimg1 list6icon" src="../images/aboutMe.png"></image>
+        <view class="listtext">关于我们</view>
         <image class="listimg2" src="../images/back.png"></image>
     </view>
 </navigator>

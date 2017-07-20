@@ -1,6 +1,6 @@
 
 <view class="friend_list">
-    <view class="friend_top">以下是我关注的朋友，猜猜TA是谁？</view>
+    <navigator url="/pages/friend/treeHole/treeHole" class="friend_top">以下是我关注的朋友，猜猜TA是谁？</navigator>
 </view>
 <view class="friend_lists">
     <image class="tx_img" src="../images/4.jpg"></image>

@@ -1,56 +1,66 @@
 <!--index.wxml-->
-<image src="../images/list_banner.png"  class="banner"></image>
+<image src="../images/list_banner.jpg"  class="banner"></image>
 <view class="box">
   <navigator url="/pages/index/mycenter/mycenter" open-type="navigate"  class="list1">
   <image class="list_img1" src="{{userInfo.avatarUrl}}"></image>
   <view class="list_name">{{userInfo.nickName}}</view>
   <view class="list_time">08:10</view>
-  <image class="list_img2" src="../images/list_mood_01.png"></image>
-  <view class="list_right">
-    <view class="list_top">5</view>
-    <image src="../images/list_baob_pre.png"></image>
+  <view class="listRight">
+    <image class="list_img2" src="../images/list_mood_01.png"></image>
+    <view class="list_right">
+      <view class="list_top">5</view>
+      <image src="../images/list_baob_pre.png"></image>
+    </view>
   </view>
 </navigator>
 <navigator url="/pages/index/friendCenter/friendCenter" class="list1 list_f">
   <image class="list_img1" src="../images/2.jpg"></image>
   <view class="list_name">李四</view>
   <view class="list_time">08:10</view>
-  <image class="list_img2" src="../images/list_mood_02.png"></image>
-  <view class="list_right">
-    <view class="list_top">0</view>
-    <image src="../images/list_baob_nor.png"></image>
+  <view class="listRight">
+    <image class="list_img2" src="../images/list_mood_02.png"></image>
+    <view class="list_right">
+      <view class="list_top">0</view>
+      <image src="../images/list_baob_nor.png"></image>
+    </view>
   </view>
 </navigator>
 <navigator url="/pages/index/friendCenter/friendCenter" class="list1 list_f">
   <image class="list_img1" src="../images/5.jpg"></image>
   <view class="list_name">丫丫</view>
   <view class="list_time">08:10</view>
-  <image class="list_img2" src="../images/list_mood_09.png"></image>
-  <view class="list_right">
-    <view class="list_top">10</view>
-    <image src="../images/list_dianz_pre.png"></image>
+  <view class="listRight">
+    <image class="list_img2" src="../images/list_mood_09.png"></image>
+    <view class="list_right">
+      <view class="list_top">10</view>
+      <image src="../images/list_dianz_pre.png"></image>
+    </view>
   </view>
 </navigator>
 <navigator url="/pages/index/friendCenter/friendCenter" class="list1 list_f">
   <image class="list_img1" src="../images/3.jpg"></image>
   <view class="list_name">王二</view>
   <view class="list_time">08:10</view>
-  <image class="list_img2" src="../images/list_mood_03.png"></image>
-  <view class="list_right">
-    <view class="list_top">0</view>
-    <image src="../images/list_baob_nor.png"></image>
+  <view class="listRight">
+    <image class="list_img2" src="../images/list_mood_03.png"></image>
+    <view class="list_right">
+      <view class="list_top">0</view>
+      <image src="../images/list_baob_nor.png"></image>
+    </view>
   </view>
 </navigator>
 <navigator url="/pages/index/friendCenter/friendCenter" class="list1 list_f">
   <image class="list_img1" src="../images/5.jpg"></image>
   <view class="list_name">麻五</view>
   <view class="list_time">08:10</view>
-  <image class="list_img2" src="../images/list_mood_02.png"></image>
-  <view class="list_right">
-    <view class="list_top">2</view>
-    <image src="../images/list_baob_pre.png"></image>
-  </view>
+   <view class="listRight">
+    <image class="list_img2" src="../images/list_mood_02.png"></image>
+    <view class="list_right">
+      <view class="list_top">2</view>
+      <image src="../images/list_baob_pre.png"></image>
+    </view>
+   </view>
 </navigator>
 
-<navigator url="" class="share">朋友太少，把此卡分享到朋友圈，邀请互看心情</navigator>
+<navigator url="" class="share">点击生成邀请卡</navigator>
 </view>

@@ -1,0 +1,22 @@
+ <view class="treeHole_box">
+        <view class="treeHole_text">
+            <view>“树洞”，最早源于童话故事《皇帝长了驴耳朵》，说一个国王长了一对驴耳朵，每个给他理发的人时候都会忍不住告诉别人，从而被砍头。有一个理发匠把这个秘密藏的好辛苦，终于在快憋不住时。就在山上对着一个大树的洞里说出了这个秘密。结果从此这树上的叶子只要放在嘴边一吹，就会发出“国王有驴耳朵”的声音。</view>
+            <view>“以前的人，要是心里有了秘密，不想让别人知道他们会跑到山上，找一颗树，在树上挖一个洞，然后把秘密全说进去，再用泥巴把洞封上，那秘密就会永远留在那颗树里，没有人会知道”——电影《花样年华》</view>
+        </view>
+        <view class="treeHole_c">
+            <view>
+                <text>于是，</text>
+                <text>"树洞"成了隐藏秘密的象征</text>
+                <text>在这里，</text>
+                <text>是好友和我寄存心情的地方</text>
+                <text>发布心情采用匿名的方式</text>
+                <text>多与好友留言互动吧</text>
+            </view>
+        </view>
+        <navigator url="/pages/me/myFriend/myFriend" open-type="navigate">
+        <view class="treeHole_bottom">
+                <text>我关注的好友</text>
+            <!-- <image src="../images/tree_b.png" alt=""></image> -->
+        </view>
+        </navigator>
+   </view>

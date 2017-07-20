@@ -1,12 +1,14 @@
+page{
+  height: 100%;
+}
 .problem{
-  padding:20px 15px 0 15px;
+  height: 100%;
 }
-.protit{
-  color:#333333;
-  font-size: 16px;
+.problem swiper{
+  height: 100%;
+
 }
-.protex{
-  color:#666666;
-  font-size: 14px;
-  margin-top:5px;
+.problem swiper image{
+  height: 100%;
+  width: 100%;
 }

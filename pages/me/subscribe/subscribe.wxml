@@ -1,0 +1,36 @@
+<view class="subscribe_box">
+  <view class="moodCount_box">
+      <view>
+      <view class="subscribe_dy"><text>我的订阅</text></view>
+      <view class="subscribeLists">
+        <navigator url="url" wx:for="{{[1,2]}}" >
+          <view class="subscribeList">
+            <image src="../../images/info_icon_por.png" class="timing"></image>
+            <view >
+              <view class="subMarTop h3">早安物语</view>
+              <view class="description">每天11：11提醒</view>
+            </view>
+            <image src="" class="details"></image>
+          </view>
+        </navigator>
+      </view>
+    </view>  
+    <view >
+      <view class="subscribe_tj"><text>订阅推荐</text></view>
+      <view class="subscribeLists ">
+        <navigator url="url" wx:for="{{[1,2]}}" >
+
+          <view class="subscribeHeight subscribeList">
+            <view class="left"> 
+              <view class="h3">晚安物语</view>
+              <view class="description">每天晚上给你一个温暖</view>
+              <view class="span">1020人已订阅</view>
+            </view>
+            <image src="" class="addSubscribe"></image>
+            <image src="" class="addSubscribe"></image>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

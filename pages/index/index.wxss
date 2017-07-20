@@ -8,7 +8,7 @@ page{
   display: block;
 }
 .list1{
-  height:70px;
+  height:72px;
   background:#fff;
   position: relative;
   margin-bottom: 10px;
@@ -17,59 +17,67 @@ page{
   margin-bottom: 1px;
 }
 .list_img1{
-  width:40px;
-  height:40px;
+  width:44px;
+  height:44px;
   position: absolute;
-  left:17px;
-  top:15px;
-  border-radius: 5px;
+  left:15px;
+  top:50%;
+  margin-top: -22px;
+  border-radius: 3px;
 }
 .list_name{
-  font-size: 15px;
-  color:#000;
+  font-size: 16px;
+  color: #333;
+  width: 144px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   position: absolute;
   top:18px;
   left:70px;
 }
 .list_time{
-  font-size: 12px;
-  color:#999999;
+  font-size: 14px;
+  color: #999999;
   position: absolute;
   left:70px;
   top:42px;
 }
+.listRight{
+  float: right;
+  height: 72px;
+}
 .list_img2{
-  width:40px;
-  height:40px;
-  position: absolute;
-  top:15px;
-  right:80px;
+  width:34px;
+  height:34px;
+  float: left;
+  margin-top: 17px;
+  margin-right: 4px;
 }
 .list_top{
-  font-size: 12px;
-  color: #aeaeae;
-  margin-bottom: 3px;
+ line-height: 14px;
 }
 .list_right{
-  width:30px;
-  position: absolute;
-  right:13px;
-  top:15px;
+  padding:16px 14px 15px 16px;
+  font-size: 13px;
+  color: #aeaeae;
+  overflow: hidden;
+  float: left;
   text-align: center;
 }
 .list_right image{
-  width:18px;
-  height:20px;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
 }
 .share{
-  width:80%;
-  height:30px;
-  border:1px solid #999999;
-  background:#fff;
-  border-radius: 5px;
-  margin:20px auto;
-  font-size: 13px;
-  line-height: 30px;
-  text-align: center;
-  color:#999999;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    margin: 25px 15px 30px 15px;
+    color: #696969;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
 }

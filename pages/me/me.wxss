@@ -1,5 +1,8 @@
+page{
+  background:#f4f4f8;
+}
 .me_top{
-    background:#e5e5e5;
+    
     padding: 15px 0;
 }
 .me1_left{
@@ -13,31 +16,34 @@
     background:#fff;
     padding:15px;
     height:60px;
+    position: relative;
 }
 .me1_right{
-    float: left;
-    margin-left: 14px;
+    position: absolute;
+    left: 88px;
+    top: 16px;
 }
 .me_name{
-    font-size: 14px;
-    color:#333333;
-    margin-top:10px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 30px;
 }
 .perfec{
-    font-size:11px;
-    color:#666666;
-    margin-top:12px;
+    
+    color: #999;
     position: relative;
-    width:60px;
 }
-.perfec text{
-    position: absolute;
-    top:5px;    
+.perfec view{
+  font-size: 14px;
+  line-height: 24px;
 }
 .edit{
+    position: absolute;
+    top: 0px;
+    left: 66px;
+    border-radius: 4px;
     height:22px;
     width:22px; 
-    margin-left: 55px; 
 }
 .me1_back{
     display: block;
@@ -56,11 +62,30 @@
     border-bottom:1px solid #e5e5e5;
 }
 .listimg1{
-    width:30px;
-    height:30px;
+    width:21px;
+    height:20px;
     display: block;
     float: left;
-   margin-top: 16px;
+   margin-top: 20px;
+}
+.list3icon{
+  height:22px;
+  width:20px;
+
+}
+.list4icon{
+  width:18px;
+  height:21px;
+
+}
+.list5icon{
+  width:20px;
+  height:15px;
+  margin-top:22px;
+}
+.list6icon{
+  width:22px;
+  height:22px;
 }
 .listimg2{
     display: block;
@@ -75,7 +100,7 @@
     color: #333333;
     float: left;
     margin-left:15px;
-    margin-top:23px;
+    margin-top:20px;
 }
 .me_bottom{
     height:42px;
