@@ -13,10 +13,28 @@ App({
     }else{
       //调用登录接口
       wx.login({
-        success: function () {
+        success: function (res) {
+          console.log(res)
+        /*  if(res.code){
+            //发起网络请求
+            wx.request({
+              url: 'https://api.weixin.qq.com/sns/jscode2session?',
+              data:{
+                js_code:res.code,
+                appid:APPID,
+                secret:SECRET,
+                grant_type:authorization_code
+              }
+            })
+          }else{
+            console.log('获取用户登录失败'+res.errMsg)
+          }
+          */
           wx.getUserInfo({
             success: function (res) {
               that.globalData.userInfo = res.userInfo
+              console.log(res)
+
               typeof cb == "function" && cb(that.globalData.userInfo)
             }
           })
@@ -25,6 +43,7 @@ App({
     }
   },
   globalData:{
-    userInfo:null
+    userInfo:null,
+    
   }
 })

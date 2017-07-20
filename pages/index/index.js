@@ -19,8 +19,22 @@ Page({
     app.getUserInfo(function(userInfo){
       //更新数据
       that.setData({
-        userInfo:userInfo
+        userInfo: userInfo
+
       })
     })
   }
 })
+/*wx.request({
+  url: '', 
+  data: {
+    x: '',
+    y: ''
+  },
+  header: {
+    'content-type': 'application/json'
+  },
+  success: function (res) {
+    console.log(res.data)
+  }
+})*/

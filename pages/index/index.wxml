@@ -2,8 +2,8 @@
 <image src="../images/list_banner.png"  class="banner"></image>
 <view class="box">
   <navigator url="/pages/index/mycenter/mycenter" open-type="navigate"  class="list1">
-  <image class="list_img1" src="../images/1.jpg"></image>
-  <view class="list_name">欧阳</view>
+  <image class="list_img1" src="{{userInfo.avatarUrl}}"></image>
+  <view class="list_name">{{userInfo.nickName}}</view>
   <view class="list_time">08:10</view>
   <image class="list_img2" src="../images/list_mood_01.png"></image>
   <view class="list_right">

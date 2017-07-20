@@ -1,8 +1,8 @@
 <view class="me_top">
     <navigator url="/pages/me/personal/personal" open-type="navigate" class="me1">
-         <image class="me1_left" src="../images/135.jpg"></image>
+         <image class="me1_left" src="{{userInfo.avatarUrl}}"></image>
          <view class="me1_right">
-            <view class="me_name">欧阳</view>
+            <view class="me_name">{{userInfo.nickName}}</view>
             <view class="perfec">
             <text>完善资料</text>        
             <image class="edit" src="../images/info_icon_por.png"></image>
