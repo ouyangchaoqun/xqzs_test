@@ -1,0 +1,7 @@
+<view class="feedback">
+  <textarea placeholder="你好,我是产品经理小珺,欢迎给我们提出产品的使用感受和建议!" />
+  <text>不少于8字!</text>
+</view>
+<view class="feedback_btn">
+    <button type="primary">提交</button>
+</view>

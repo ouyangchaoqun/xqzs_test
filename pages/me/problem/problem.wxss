@@ -1,0 +1,12 @@
+.problem{
+  padding:20px 15px 0 15px;
+}
+.protit{
+  color:#333333;
+  font-size: 16px;
+}
+.protex{
+  color:#666666;
+  font-size: 14px;
+  margin-top:5px;
+}

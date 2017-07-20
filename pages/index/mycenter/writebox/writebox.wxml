@@ -1,0 +1,22 @@
+<view class="write_box">
+  <textarea placeholder="这一刻的心情..." maxlength="140"/>
+  <view class="send">
+        <view class="send_left" bindtap="chooseLocation">
+           <image src="../../../images/loc.png"></image>
+           <text>{{name}}</text>
+        </view>
+        <button size="mini" type="primary">发布</button>
+  </view>
+</view>
+<view class="open">
+    <image src="../../../images/theircenter_icon_write.png"></image>
+    <text class="opentext1">公开心情</text>
+    <text class="opentext2">(匿名模式-好友不知道你的身份)</text>
+    <switch />
+</view>
+<view class="imglist" wx:for="{{imgs}}">
+    <image src="{{item}}" ></image>  
+</view>
+<view class="imglist" bindtap="addPhoto" hidden="{{flag}}">
+    <image src="http://m.xqzs.cn/static/web/img/add_photos.png"></image>  
+</view>

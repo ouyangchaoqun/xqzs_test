@@ -1,0 +1,27 @@
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img1" src="../images/list_mood_01.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img2" src="../images/list_mood_02.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img3" src="../images/list_mood_03.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img4" src="../images/list_mood_04.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img5" src="../images/list_mood_05.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img6" src="../images/list_mood_06.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img7" src="../images/list_mood_07.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img8" src="../images/list_mood_08.png"></image>
+</navigator>
+<navigator url="/pages/index/mycenter/mycenter">
+   <image class="img9" src="../images/list_mood_09.png"></image>
+</navigator>

@@ -1,0 +1,25 @@
+page{
+  background:#eeeeee;
+}
+.feedback{
+  padding:20px;
+  font-size:15px;
+  color:#999999;
+  position: relative;
+  height:180px;
+  background:#fff;
+}
+
+.feedback textarea{
+ 
+ width:100%;
+}
+.feedback text{
+  position:absolute;
+  right:20px;
+  bottom:20px;
+}
+.feedback_btn{
+  padding:0 20px;
+  margin-top:34px;
+}

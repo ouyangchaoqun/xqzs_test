@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/friendCenter/friendCenter",
+    "pages/moods/moods",
+    "pages/writemood/writemood",
+    "pages/friend/friend",
+    "pages/me/me",
+    "pages/index/mycenter/mycenter",
+    "pages/me/personal/personal",
+    "pages/me/myMood/myMood",
+    "pages/me/myFriend/myFriend",
+    "pages/me/remind/remind",
+    "pages/me/privacy/privacy",
+    "pages/me/problem/problem",
+    "pages/me/proposal/proposal",
+    "pages/me/personal/phone/phone",
+    "pages/index/mycenter/writebox/writebox"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "心情指数",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor":"#6cb954",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "记录心情",
+       "iconPath":"pages/images/face1.png",
+      "selectedIconPath":"pages/images/face2.png"
+    },{
+      "pagePath": "pages/me/personal/personal",
+      "text": "完善资料",
+      "iconPath":"pages/images/rl1.png",
+      "selectedIconPath":"pages/images/rl2.png"
+      
+    },{
+      "pagePath": "pages/friend/friend",
+      "text": "小树洞",
+      "iconPath":"pages/images/friend1.png",
+      "selectedIconPath":"pages/images/friend2.png"
+      
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath":"pages/images/me1.png",
+      "selectedIconPath":"pages/images/me2.png"
+      
+    }]
+  }
+}

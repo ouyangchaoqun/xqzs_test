@@ -1,0 +1,203 @@
+.banner{
+  width:100%;
+  position: relative;
+  overflow: visible;
+  margin-bottom: 40px;
+  }
+.banner view{
+  border-radius: 50%;
+  background: rgba(204,204,204,0.4);
+  padding:4px;
+  position: absolute;
+ bottom:-32px;
+  left:50%;
+  margin-left:-32px;
+  z-index: 99;
+}
+.banner image{
+  display: block;
+  height:64px;
+  width:64px;
+  border-radius: 50%;
+  overflow: auto;
+ 
+}
+.center_box{
+ padding:0 20px;
+}
+.chart{
+ width:100%; 
+ height:190px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom:22px;
+  background: url("../../images/center_bj_can.png");
+  background-size: cover;
+  padding-top: 8px;
+  position: relative;
+}
+.chart text{
+  font-size: 12px;
+  color:#ffffff;
+  position: absolute;
+  left:50%;
+  top:-3px;
+  margin-left:-24px;
+}
+.tx_img{
+  width:40px;
+  height:40px;
+  display: block;
+  float: left;
+  border-radius: 50%;
+}
+.friend_lists{
+  background: #fff;
+  padding-top:10px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-top:20px;
+}
+.friend_right{
+  margin-left:50px;
+
+}
+.moods{
+  font-size: 14px;
+  color:#ff6600;
+  margin-bottom: 10px;
+}
+.shuoshuo{
+  font-size: 14px;
+  color:#333333;
+}
+.friend_img{
+  margin-top:10px;
+}
+.friend_img image{
+  width:80px;
+  height:80px;
+  margin-right: 5px;
+} 
+.img_bottom{
+  margin-top:10px;
+}
+.zan{
+  float: right;
+  font-size: 11px;
+  color:#999999;
+  
+}
+.zan view{
+  float: left;
+  margin-top:3px;
+}
+.zan image{
+  float: left;
+  margin-left:3px;
+}
+.zan_right{
+  margin-left:10px;
+}
+.zan_right image{
+  margin-top:3px;
+
+}
+.loc{
+  font-size: 12px;
+  color:#516591;
+}
+.oldtime{
+  font-size: 12px;
+  color:#787878;
+}
+.oldtime text{margin-right:5px;}
+.oldtime .del{
+  color:#516591;
+}
+.commont_box{
+  background: #efefef;
+  border-radius: 5px;
+  margin-top:15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.arrow{
+  width:15px;
+  height:15px;
+  background: #efefef;
+  position: absolute;
+  left:20px;
+  top:-6px;
+  transform:rotate(45deg);
+}
+.box_top{
+  padding-bottom: 5px;
+  position: relative;
+  padding-top: 10px;
+}
+.box_bottom{
+  border-top:1px solid #dcdcdc;
+  position: relative;
+  padding-bottom: 5px;
+}
+.box_leftimg{
+  position: absolute;
+  left:15px;
+  display: block;
+  top:15px;
+}
+.box_rightimg{
+  margin-left:50px;
+}
+.box_rightimg image{
+  width:33px;
+  height:33px;
+  display:inline-block;
+  margin-right:5px;
+}
+.commont{
+  margin-left:50px;
+  position: relative;
+  padding-top:10px;
+  padding-right: 20px;
+}
+.commont image{
+  width:33px;
+  height:33px;
+  display: block;
+  position: absolute;
+  left:0;
+}
+.commonts{
+  margin-left:43px;
+  font-size: 14px;
+  padding-bottom:9px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.commonts .commonts_name{
+  color:#516591;
+  margin-bottom: 10px;
+}
+.commonts text{
+ color:#333333;
+
+}
+
+.writemood{
+  height:30px;
+  line-height:30px;
+  background:#dcdcdc;
+  color:#999999;
+  font-size: 14px;
+  padding:0 10px;
+  border-radius: 5px;
+}
+.writemood image{
+  height:26px;
+  width:26px;
+  display: block;
+  float: right;
+  margin-top:2px;
+}

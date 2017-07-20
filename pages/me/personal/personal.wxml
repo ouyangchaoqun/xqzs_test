@@ -1,0 +1,45 @@
+<view class="list0_box">
+  <view class="list0">
+    <text>昵称</text>
+    <input placeholder="填写昵称" focus="{{focus}}"/>
+  </view>
+  <view class="list0 list02">
+    <text>更改头像</text>
+      <navigator url="">
+         <image src="../../images/goto.png"></image>
+      </navigator>
+  </view>
+ 
+    
+  <navigator url="/pages/me/personal/phone/phone">
+     <view class="list0 list02">
+        <text>绑定手机号</text>
+        <image src="../../images/goto.png"></image>
+     </view>
+  </navigator>
+ 
+  <view class="list0">
+    <text>姓名</text>
+    <input placeholder="还未填写（如：张三）" />
+  </view>
+
+  <picker class="list0" mode="date" value="{{date}}" start="2015-09-09" end="2020-09-09"  bindchange="bindDateChange">
+        <view class="bc_text">
+        <text>生日：</text> <view class="text2">{{date}}</view>
+        </view>
+    </picker>
+  <picker class="list0" bindchange="bindchanges" value="{{index}}" range="{{array}}">
+        <view class="bc_text">
+        <text>所在地区：</text> <view class="text2">{{array[index]}}</view>
+        </view>
+    </picker>
+  <view class="list0">
+    <text>详细地址</text>
+    <input placeholder="还未填写" />
+  </view>
+<view class="list03">
+  <button type="primary" class="weui_btn">提交</button>
+ </view>
+
+ 
+</view>

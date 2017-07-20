@@ -1,0 +1,90 @@
+.me_top{
+    background:#e5e5e5;
+    padding: 15px 0;
+}
+.me1_left{
+    height:60px;
+    width:60px;
+    display: block;
+    border-radius: 5px;
+    float: left;
+}
+.me1{
+    background:#fff;
+    padding:15px;
+    height:60px;
+}
+.me1_right{
+    float: left;
+    margin-left: 14px;
+}
+.me_name{
+    font-size: 14px;
+    color:#333333;
+    margin-top:10px;
+}
+.perfec{
+    font-size:11px;
+    color:#666666;
+    margin-top:12px;
+    position: relative;
+    width:60px;
+}
+.perfec text{
+    position: absolute;
+    top:5px;    
+}
+.edit{
+    height:22px;
+    width:22px; 
+    margin-left: 55px; 
+}
+.me1_back{
+    display: block;
+    float: right;
+    width:20px;
+    height:20px;
+   transform: rotate(180deg);
+   margin-top:20px;
+}
+.me_lists{
+    background:#fff;
+    padding:0 15px;
+}
+.me_list{
+    height:58px;
+    border-bottom:1px solid #e5e5e5;
+}
+.listimg1{
+    width:30px;
+    height:30px;
+    display: block;
+    float: left;
+   margin-top: 16px;
+}
+.listimg2{
+    display: block;
+    float: right;
+    width:20px;
+    height:20px;
+    transform: rotate(180deg);
+    margin-top:20px;
+}
+.listtext{
+    font-size:15px;
+    color: #333333;
+    float: left;
+    margin-left:15px;
+    margin-top:23px;
+}
+.me_bottom{
+    height:42px;
+    background:limegreen;
+    color:#fbfafa;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    width:90%;
+    line-height: 42px;
+    margin:30px auto;
+}

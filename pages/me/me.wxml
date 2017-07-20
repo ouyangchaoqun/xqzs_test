@@ -1,0 +1,59 @@
+<view class="me_top">
+    <navigator url="/pages/me/personal/personal" open-type="navigate" class="me1">
+         <image class="me1_left" src="../images/135.jpg"></image>
+         <view class="me1_right">
+            <view class="me_name">欧阳</view>
+            <view class="perfec">
+            <text>完善资料</text>        
+            <image class="edit" src="../images/info_icon_por.png"></image>
+            </view>
+         </view>
+         <image class="me1_back" src="../images/back.png"></image>
+    </navigator>
+</view>
+<navigator url="/pages/me/myMood/myMood" open-type="navigate" class="me_lists">
+    <view class="me_list">
+        <image class="listimg1" src="../images/listimg1.png"></image>
+        <view class="listtext">我的心情指数</view>
+        <image class="listimg2" src="../images/back.png"></image>
+    </view>
+</navigator>
+<navigator url="/pages/me/myFriend/myFriend" open-type="navigate" class="me_lists">
+    <view class="me_list">
+        <image class="listimg1" src="../images/listimg2.png"></image>
+        <view class="listtext">我的好友</view>
+        <image class="listimg2" src="../images/back.png"></image>
+    </view>
+</navigator>
+<navigator url="/pages/me/remind/remind" open-type="navigate" class="me_lists">
+    <view class="me_list">
+        <image class="listimg1" src="../images/listimg3.png"></image>
+        <view class="listtext">心情记录提醒设置</view>
+        <image class="listimg2" src="../images/back.png"></image>
+    </view>
+</navigator>
+<navigator url="/pages/me/privacy/privacy" open-type="navigate" class="me_lists">
+    <view class="me_list">
+        <image class="listimg1" src="../images/listimg4.png"></image>
+        <view class="listtext">隐私设置</view>
+        <image class="listimg2" src="../images/back.png"></image>
+    </view>
+</navigator>
+
+<navigator url="/pages/me/proposal/proposal" open-type="navigate" class="me_lists">
+    <view class="me_list">
+        <image class="listimg1" src="../images/listimg6.png"></image>
+        <view class="listtext">意见反馈</view>
+        <image class="listimg2" src="../images/back.png"></image>
+    </view>
+</navigator>
+
+<navigator url="/pages/me/problem/problem" open-type="navigate" class="me_lists">
+    <view class="me_list">
+        <image class="listimg1" src="../images/aboutMe.png"></image>
+        <view class="listtext">个人中心</view>
+        <image class="listimg2" src="../images/back.png"></image>
+    </view>
+</navigator>
+
+<navigator class="me_bottom" url="">生成邀请卡</navigator>

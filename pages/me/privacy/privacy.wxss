@@ -1,0 +1,19 @@
+page{
+  background:#f4f4f4;
+  padding-top:20px;
+}
+.privacy{
+  height:50px;
+  background: #fff;
+  margin-bottom: 1px;
+  padding:0 15px;
+  line-height: 50px;
+}
+.privacy text{
+  font-size: 15px;
+  color: #333333;
+
+}
+.privacy switch{
+  float: right;
+}

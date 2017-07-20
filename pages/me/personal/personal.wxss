@@ -1,0 +1,50 @@
+
+page{
+  background:#eeeeee;
+}
+.list0_box{
+ height: 100%;
+ 
+ padding-top:20px;
+}
+.list0{
+  background:#fff;
+  height:60px;
+  margin-bottom: 1px;
+  line-height:60px;
+  padding:0 10px;
+}
+.list02{
+  margin-bottom: 10px;
+}
+.list0 text{
+  float: left;
+  color:#333333;
+  font-size: 15px;
+}
+.list0 input{
+  float: right;
+  font-size: 14px;
+  color:#999999;
+  height: 60px;
+  text-align: right;
+}
+.list0 image{
+  width:20PX;
+  height:20px;
+  float: right;
+  margin-top:20px;
+}
+.list03{
+  border:0;
+  margin-top:44px;
+  background: #eeeeee;
+  height:100%;
+  padding:0 10px;
+}
+.text2{
+  float: right;
+  text-align: right;
+  color:#999999;
+  font-size: 14px;
+}

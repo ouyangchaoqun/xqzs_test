@@ -1,0 +1,44 @@
+page{
+  background:#eeeeee;
+  
+}
+.friendList text{
+  padding:0 10px;
+  font-size: 14px;
+  color:#666666;
+  height:25px;
+  display: block;
+}
+
+navigator{
+  position: relative;
+  background:#fff;
+  padding:10px;
+  height:40px;
+  margin-bottom: 1px;
+}
+
+.friendtx{
+  height:40px;
+  width:40px;
+  border-radius: 5px;
+  display: block;
+  float: left;
+}
+.friendgoto{
+  height:16px;
+  width:16px;
+  display: block;
+  position: absolute;
+  right:20px;
+  top:50%;
+  margin-top:-8px;
+}
+.friendName{
+  font-size: 14px;
+  color:#333333;
+  float: left;
+  margin-left:12px;
+  height:40px;
+  line-height:40px;
+}

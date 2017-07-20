@@ -1,0 +1,43 @@
+
+
+<view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">每周心情指数</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">每月心情指数</view>  
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">每年心情指数</view>  
+</view>  
+  
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight-44}}px" bindchange="bindChange">  
+   
+    <swiper-item>  
+      <view class="recordlist">
+        <text>2017年第18周</text>
+        <view>本周你记录了4天，2天开心，4天不开心</view>
+        <view>你比48%的小伙伴都开心哦~</view>
+        <image src="../../images/goto.jpg"></image>
+      </view>
+      <view class="recordlist">
+        <text>2017年第17周</text>
+        <view>本周你记录了4天，2天开心，4天不开心</view>
+        <view>你比48%的小伙伴都开心哦~</view>
+        <image src="../../images/goto.jpg"></image>
+      </view>
+    </swiper-item>  
+   
+    <swiper-item>  
+        <view class="recordlist">
+          <text>2017年第5月</text>
+          <view>本月你记录了4天，2天开心，4天不开心</view>
+          <view>你比48%的小伙伴都开心哦~</view>
+          <image src="../../images/goto.jpg"></image>
+        </view>
+    </swiper-item>  
+   
+    <swiper-item>  
+        <view class="recordlist">
+          <text>2017年</text>
+          <view>本年你记录了4天，2天开心，4天不开心</view>
+          <view>你比48%的小伙伴都开心哦~</view>
+          <image src="../../images/goto.jpg"></image>
+        </view>
+    </swiper-item>  
+</swiper>  

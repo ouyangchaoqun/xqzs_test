@@ -1,0 +1,215 @@
+.banner{
+ width:100%;
+ display: block;
+}
+.rl_header{
+  height:60px;
+  position: relative;
+ 
+}
+.old{
+  left:30px;
+  height:24px;
+  width:24px;
+  position: absolute;
+  top:10px;
+  display: block;
+}
+.next{
+  right:30px;
+  transform: rotate(180deg);
+  height:24px;
+  width:24px;
+  position: absolute;
+  top:10px;
+  display: block;
+}
+.rl_date{
+  font-size:16px;
+  color:#666666;
+  width:80px;
+  margin:0 auto;
+  line-height: 40px;
+}
+.week_day{
+  display: flex;
+}
+.week_day text{
+  flex: 1;
+  text-align: center;
+  color:#828080;
+  font-size: 12px;
+}
+.canlendarBgView {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canlendarView {
+  color: #17b7b2;
+  display: flex;
+  flex-direction: column;
+}
+
+.canlendarTopView {
+  height: 80rpx;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftBgView {
+  text-align: right;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.leftView {
+  width: 80rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerView {
+  width: 50%;
+  height: 80rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:#666666;
+}
+
+.rightBgView {
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightView {
+  width: 80rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.weekBgView {
+  height: 50rpx;
+  line-height: 50rpx;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekView {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 28rpx;
+  color:#333;
+  border-bottom:1px solid #eeeeee;
+
+}
+
+.dateBgView {
+  height: 500rpx;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dateEmptyView {
+  width: 14%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right:1px solid #eeeeee;
+  border-bottom:1px solid #eeeeee
+}
+
+.dateView {
+  width: 14%;
+  color: #fff;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  border-right:1px solid #eeeeee;
+  border-bottom:1px solid #eeeeee
+}
+.dateView image{
+  height:30px;
+  width:30px;
+  display:block;
+  margin:5px auto;
+}
+
+.datesView {
+  
+  height: 60rpx;
+  color: #828080;
+  font-size: 26rpx;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.dateSelectView{
+  background:#fef8e5;
+}
+
+.swiper_box{
+  width:90%;
+  height:476rpx;
+  position: absolute;
+  top:25%;
+  left:50%;
+  margin-left:-45%;
+  z-index: 100;
+  
+  border-radius: 15px;
+}
+.swiper_box image{
+  height:100%;
+  width:100%;
+  box-shadow: 0px 2px 2px #ccc;
+}
+.clickBox_time{
+  position:absolute;
+  text-align:center;
+  padding:0 20px;
+  bottom:6px;
+  font-size:14px;
+  color:#999999;
+  height:72px;
+  overflow: hidden;
+}
+.clickBox_time text{
+  margin:0 5px;
+}
+.clickBox_bottom{
+  margin-top:6px;
+}
+.bg_box{
+ 
+  position:fixed;
+  top: 0;left: 0;
+  background: rgba(0,0,0,0.5);
+  height:100%;width:100%;
+  z-index:1;
+			
+}

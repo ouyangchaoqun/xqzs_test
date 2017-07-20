@@ -1,0 +1,41 @@
+<image src="../images/list_banner.png"  class="banner"></image>
+<view class="bg_box" hidden="{{flag}}" bindtap="bg_box">
+<swiper class="swiper_box" hidden="{{flag}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+      <view class="clickBox_time" >
+							<text>4月13日</text><text>星期四</text><text>08:20:40</text>
+							<view class="clickBox_bottom">今天很高兴今天很高兴今天很高兴今天很高兴今天很高兴</view>
+						</view>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="rl_header">
+    <view class="canlendarBgView">
+      <view class="canlendarView">
+        <view class="canlendarTopView">
+          <view class="leftBgView" bindtap="handleCalendar" data-handle="prev">
+            <image class="old" src="../images/back.png"></image> 
+          </view>
+          <view class="centerView">{{cur_year || "--"}} 年 {{cur_month || "--"}} 月</view>
+          <view class="rightBgView" bindtap="handleCalendar" data-handle="next">
+            <image class="next" src="../images/back.png"></image>
+          </view>
+      </view>
+      <view class="weekBgView">
+        <view class="weekView" wx:for="{{weeks_ch}}" wx:key="{{index}}" data-idx="{{index}}">{{item}}       </view>
+      </view>
+      <view class="dateBgView">
+        <view wx:if="{{hasEmptyGrid}}" class="dateEmptyView" wx:for="{{empytGrids}}" wx:key="{{index}}" data-idx="{{index}}">
+        </view>
+        <view class="dateView {{_month == cur_month&&index == today-1 ? 'dateSelectView' : ''}}" wx:for="{{days}}" wx:key="{{index}}" data-idx="{{index}}" bindtap="swiper_box">
+        
+          <view class="datesView">{{item}}</view>
+          <image src="../images/rili_xl.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>		

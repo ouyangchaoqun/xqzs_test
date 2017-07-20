@@ -1,0 +1,8 @@
+<view class="privacy">
+    <text>不看好友的心情记录</text>
+    <switch />
+</view>
+<view class="privacy">
+    <text>不让好友看我的心情记录</text>
+    <switch />
+</view>

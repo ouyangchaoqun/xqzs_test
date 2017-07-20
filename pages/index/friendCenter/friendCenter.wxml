@@ -1,0 +1,21 @@
+<image src="../../images/list_banner.png"  class="banner">
+    <view>
+        <image src="../../images/1.jpg"></image>  <!--个人头像-->
+    </view>
+</image>
+    
+<view class="center_box">
+    <swiper class="chart">
+      <text>心情指数</text>
+      <swiper-item >
+        <canvas canvas-id="areaCanvas" class="canvas" bindtouchstart="touchHandler" style="width:100%;height:100%;margin-left:-20px;margin-top:8px"></canvas>
+      </swiper-item>
+      <swiper-item >
+        <canvas canvas-id="areaCanvas" class="canvas" bindtouchstart="touchHandler" style="width:100%;height:100%;margin-left:-20px;margin-top:8px"></canvas>
+      </swiper-item>
+      <swiper-item >
+        <canvas canvas-id="areaCanvas" class="canvas" bindtouchstart="touchHandler" style="width:100%;height:100%;margin-left:-20px;margin-top:8px"></canvas>
+      </swiper-item>
+      
+    </swiper>    <!--折线图部分TODO-->
+</view>

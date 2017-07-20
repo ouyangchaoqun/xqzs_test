@@ -1,0 +1,84 @@
+page{
+  background:#eeeeee;
+}
+.write_box{
+ background:#fff;
+ 
+ padding:15px 10px 0 10px;
+}
+.write_box textarea{
+  font-size: 15px;
+  color:#999999;
+  height:150px;
+}
+.send{
+  height:50px;
+  background:#fff;
+  border-top: 1px solid #eeeeee;
+  line-height:50px;
+}
+.send_left{
+  float: left;
+  width:250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  }
+.send image{
+  height:26px;
+  width:26px;
+  display: block;
+  float: left;
+  margin-top:12px;
+  margin-right: 12px;
+}
+.send text{
+  font-size: 15px;
+  color:#333333;
+}
+.send button{
+  float: right;
+  margin-top:12px;
+  margin-right:5px;
+
+}
+.open{
+  height:44px;
+  background:#fff;
+  margin-top:10px;
+  line-height:44px;
+  padding:0 10px;
+
+}
+.open image{
+  width:30px;
+  height:20px;
+  float:left;
+  margin-top:12px;
+  margin-right:15px;
+
+}
+.open switch{
+  float: right;
+   margin-right:5px;
+}
+.opentext1{
+  font-size: 15px;
+  color:#333333;
+}
+.opentext2{
+  font-size: 12px;
+  color:#999999;
+
+}
+.imglist{
+  padding-top:15px;
+  padding-left: 10px;
+  height: 110px;
+  float: left;
+}
+.imglist image{
+  width:110px;
+  height:110px;
+}
+

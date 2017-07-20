@@ -1,0 +1,113 @@
+.friend_list{
+  border-bottom: 1px solid #eeeeee;
+  background: #fff;
+}
+.friend_top{
+  width:90%;
+  height:24px;
+  line-height: 24px;
+  text-align: center;
+  background:#eeeeee;
+  margin:10px auto;
+  font-size: 12px;
+  border:1px solid #eeeeee;
+  border-radius: 5px;
+  color:#999999;
+}
+.tx_img{
+  width:40px;
+  height:40px;
+  display: block;
+  float: left;
+  border-radius: 5px;
+}
+.friend_lists{
+  border-bottom: 1px solid #eeeeee;
+  background: #fff;
+  padding-top:10px;
+  padding-left:10px;
+  padding-right:20px;
+}
+.friend_right{
+  margin-left:50px;
+
+}
+.moods{
+  font-size: 13px;
+  color:#ff6600;
+}
+.shuoshuo{
+  font-size: 13px;
+  color:#333333;
+}
+.friend_img{
+  margin-top:10px;
+}
+.friend_img image{
+  width:80px;
+  height:80px;
+  margin-right: 5px;
+} 
+.img_bottom{
+  height:22px;
+  line-height: 22px;
+}
+.zan{
+  float: right;
+  font-size: 11px;
+  color:#999999;
+  
+}
+.zan view{
+  float: left;
+}
+.zan image{
+  float: left;
+  margin-left:3px;
+}
+.zan_right{
+  margin-left:10px;
+}
+.zan_right image{
+  margin-top:3px;
+
+}
+.oldtime{
+  font-size: 11px;
+  color:#999999;
+}
+.commont_box{
+  padding-top:10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  position: relative;
+  margin-top:10px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-left:10px;
+}
+.arrow{
+  width:15px;
+  height:15px;
+  background: #f9f9f9;
+  position: absolute;
+  left:20px;
+  top:-6px;
+  transform:rotate(45deg);
+}
+.friend_commont{
+  margin-bottom: 6px;
+}
+.name{
+  font-size: 13px;
+  color:#666699;
+ 
+}
+.commont{
+  font-size: 13px;
+  color:#333333;
+}
+.me_commont{
+  font-size: 13px;
+  margin-bottom: 6px;
+}

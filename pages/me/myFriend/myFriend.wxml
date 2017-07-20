@@ -1,0 +1,29 @@
+<view class="friendList">
+   <text>A</text>
+   <navigator url="">
+    <image class="friendtx" src="../../images/1.jpg"></image>
+    <view class="friendName">阿大</view>
+    <image class="friendgoto" src="../../images/goto.jpg"></image>
+   </navigator>
+   <navigator url="">
+    <image class="friendtx" src="../../images/1.jpg"></image>
+    <view class="friendName">阿小</view>
+    <image class="friendgoto" src="../../images/goto.jpg"></image>
+   </navigator>
+</view>
+<view class="friendList">
+   <text>B</text>
+   <navigator url="">
+    <image class="friendtx" src="../../images/1.jpg"></image>
+    <view class="friendName">宝宝</view>
+    <image class="friendgoto" src="../../images/goto.jpg"></image>
+   </navigator>
+</view>
+<view class="friendList">
+   <text>C</text>
+   <navigator url="">
+    <image class="friendtx" src="../../images/1.jpg"></image>
+    <view class="friendName">C罗</view>
+    <image class="friendgoto" src="../../images/goto.jpg"></image>
+   </navigator>
+</view>
